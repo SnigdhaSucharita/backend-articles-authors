@@ -1,7 +1,3 @@
-# Simple express demo
+#Backend of articles & authors
 
-> Express: fast, unopinionated, minimalist web framework for Node.js
-
-This project shows a simple express server serving a single HTML page and using `express.static` to serve static files.
-
-Check out the [express documentation](https://expressjs.com/) for more information.
+Two APIs are present. One to add new article to articles array. Another to add new author to authors array.
