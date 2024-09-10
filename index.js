@@ -38,6 +38,7 @@ function validateArticle(article) {
   if(!article.content || typeof article.content !== "string") {
     return "Content is required and should be a string";
   }
+  return null;
 }
 
 app.post("/articles", (req, res) => {
@@ -57,6 +58,7 @@ function validateAuthor(author) {
   if(!author.articleId || typeof author.articleId !== "number") {
     return "articleId is required and should be a number.";
   }
+  return null;
 }
 
 app.post("/authors", (req, res) => {
